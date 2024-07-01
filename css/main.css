@@ -1,6 +1,91 @@
-@import url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting@latest/css/_utilities/_variables.css?v=2');
+/* @import url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting@latest/css/_utilities/_variables.css?v=2');
 @import url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting@latest/css/imports/fonts.css?v=2');
-@import url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting@latest/css/elements/typography.css?v=2');
+@import url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting@latest/css/elements/typography.css?v=2'); */
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Regular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Clash Display';
+    src: url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Bold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Clash Display';
+    src: url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Extralight.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Clash Display';
+    src: url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Light.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Clash Display';
+    src: url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Medium.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Clash Display';
+    src: url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Semibold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Clash Display';
+    src: url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Variable.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/fonts/clash-display/ClashDisplay-Variable.woff') format('woff');
+    font-weight: 100 900;
+    font-style: normal;
+  }
+  
 
 
 /* Testing if update worked */
+:root {
+    --font-primary: 'Clash Display', 'Montserrat', 'Poppins', 'Lexend', 'Helvetica', 'Arial', sans-serif;
+    --font-body: 'Clash Display', 'Montserrat', 'Poppins', 'Lexend', 'Helvetica', 'Arial', sans-serif;
+
+    --clr-primary: #60F053;
+    --clr-black: #000;
+    --clr-gray-darkest: #1A1A1A;
+    --clr-gray-darker: #333;
+    --clr-gray-dark: #888;
+    --clr-gray: #ccc;
+    --clr-gray-light: #d5d5d5;
+    --clr-gray-lighter: #e7e7e7;
+    --clr-gray-lightest: #f5f5f5;
+    --clr-white: #fff;
+}
+
+
+body,h1,h2,h3,h4,h5,h6,p {
+    font-family: var(--font-primary);
+}
+
+
+pre {
+    background-color: var(--clr-gray-darker);
+    padding: 1.5rem;
+    color: var(--clr-gray-lighter);
+    border-radius: .25rem
+    }

@@ -1,3 +1,11 @@
 body {
     font-family: var(--font-primary);
 }
+
+
+pre {
+    background-color: var(--clr-gray-darker);
+    padding: 1.5rem;
+    color: var(--clr-gray-lighter);
+    border-radius: .25rem
+    }

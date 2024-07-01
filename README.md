@@ -39,12 +39,12 @@ Add “.min” to any JS/CSS file to get a minified version — if one doesn’t
 
 
 For this file, the link would be:
-```css
+```
 https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/styles.css
 ```
 
 To import the above css file inside another css, use this code:
 
-```
+```css
 @import url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/styles.css');
 ```

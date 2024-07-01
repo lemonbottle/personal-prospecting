@@ -77,10 +77,12 @@
     --clr-white: #fff;
 }
 
+/* Typography */
 
-body,h1,h2,h3,h4,h5,h6,p {
+body,h1,h2,h3,h4,h5,h6,p,.btn,a,button,input,select,form,textarea {
     font-family: var(--font-primary);
 }
+
 
 
 pre {

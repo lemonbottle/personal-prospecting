@@ -46,5 +46,5 @@ https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/README.md
 To import your css files, use this code inside a custom CSS block:
 
 ```css
-@import url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/css/main.css');
+@import url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting@latest/css/main.css');
 ```

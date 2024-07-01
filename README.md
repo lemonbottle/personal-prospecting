@@ -1,6 +1,6 @@
 # personal-prospecting
 CDN hosting for fonts, css files and javascript for Harry Sims Kajabi website Personal Prospecting. 
-
+ 
 
 ### How to deliver files
 From this article: ![https://medium.com/javarevisited/how-to-host-your-repository-js-css-on-open-source-cdn-jsdelivr-4de252d6fbad]
@@ -40,11 +40,11 @@ Add “.min” to any JS/CSS file to get a minified version — if one doesn’t
 
 For this file, the link would be:
 ```
-https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/style-overrides.css
+https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/README.md
 ```
 
-To import the above css file inside another css, use this code:
+To import your css files, use this code inside a custom CSS block:
 
 ```css
-@import url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/style-overrides.css');
+@import url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/css/main.css');
 ```

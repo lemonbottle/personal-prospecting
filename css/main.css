@@ -1,0 +1,10 @@
+@import url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/css/imports/fonts.css');
+@import url('https://cdn.jsdelivr.net/gh/lemonbottle/personal-prospecting/css/elements/typography.css');
+
+
+pre {
+    background-color: #333;
+    padding: 1.5rem;
+    color: #e7e7e7;
+    border-radius: .25rem
+    }

@@ -117,3 +117,22 @@ pre {
     border: 1px solid var(--clr-primary) !important;
     color: var(--clr-text) !important;
 }
+
+/* Blog Post */
+.blog-post-body {
+background: var(--clr-black);
+color: var(--clr-white);
+}
+
+.blog-post-body h1,
+.blog-post-body h2,
+.blog-post-body h3,
+.blog-post-body h4,
+.blog-post-body h5,
+.blog-post-body h6 {
+  color: var(--clr-white);
+}
+
+.background-light h1, .background-light h2, .background-light h3, .background-light h4, .background-light h5, .background-light h6, .background-light .h1, .background-light .h2, .background-light .h3, .background-light .h4, .background-light .h5, .background-light .h6 {
+  color: var(--clr-white);
+}

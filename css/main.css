@@ -66,8 +66,9 @@
 
 /* Testing if update worked */
 :root {
-    --font-primary: 'Helvetica', 'Clash Display', 'Montserrat', 'Poppins', 'Lexend', 'Helvetica', 'Arial', sans-serif;
-    --font-body: 'Helvetica', 'Clash Display', 'Montserrat', 'Poppins', 'Lexend', 'Helvetica', 'Arial', sans-serif;
+    --font-primary: 'Clash Display', 'Montserrat', 'Poppins', 'Lexend', 'Helvetica', 'Arial', sans-serif;
+    --font-body: 'Clash Display', 'Montserrat', 'Poppins', 'Lexend', 'Helvetica', 'Arial', sans-serif;
+    --font-helvetica: 'Helvetica', 'Clash Display', 'Montserrat', 'Poppins', 'Lexend', 'Helvetica', 'Arial', sans-serif;
 
     --clr-primary: #60F053;
     --clr-black: #0d0d0d;
@@ -101,6 +102,10 @@ textarea,
 .form-group label,
 .form-control {
     font-family: var(--font-primary);
+}
+
+h1 {
+    font-size: clamp(1.5rem, .23rem + 2vw, 2.3rem);
 }
 
 pre {
